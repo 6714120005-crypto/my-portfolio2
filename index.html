@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alanda Wongmaka - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="nav-brand">Alanda Wongmaka</div>
+        <ul class="nav-links">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-container">
+        <img src="images/profile.jpg" alt="Alanda Wongmaka" class="profile-image">
+        <div class="about-text">
+          <h3>About Me</h2>
+          <p>Alanda Wongmaka 6714120005  </p>
+          <p>ทักษะที่มี:  Basic Networking</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="card card-with-image">
+        <img src="images/project1.jpg" alt="Project 1" class="project-image">
+        <div class="card-body">
+          <h3 class="card-title">Basic Networking Simulation</h3>
+          <p class="card-description">โปรเจกต์จำลองระบบเครือข่ายพื้นฐาน เช่น การตั้งค่า IP, Routing และการ Ping ระหว่างเครื่อง โดยใช้ Packet Tracer</p>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">View Project</a>
+            <a href="#" class="btn btn-secondary btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-with-image">
+        <img src="images/project2.jpg" alt="Project 2" class="project-image">
+        <div class="card-body">
+          <h3 class="card-title">Website Portfolio Design</h3>
+          <p class="card-description">เว็บไซต์แนะนำตัวทำด้วย HTML + CSS พร้อมโครงสร้างที่เหมาะกับการใช้งานจริง และปรับแต่งได้ง่าย</p>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">View Project</a>
+            <a href="#" class="btn btn-secondary btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-with-image">
+        <img src="images/project3.jpg" alt="Project 3" class="project-image">
+        <div class="card-body">
+          <h3 class="card-title">JavaScript Mini Tools</h3>
+          <p class="card-description">ชุดเครื่องมือเล็กๆ เช่น Calculator, Timer, และ To‑Do List สำหรับฝึกการใช้ JavaScript พื้นฐาน</p>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">View Project</a>
+            <a href="#" class="btn btn-secondary btn-sm">View Code</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="container">
+    <p>&copy; 2025 Alanda Wongmaka. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
